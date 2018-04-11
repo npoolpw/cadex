@@ -1,19 +1,20 @@
-var api = "http://apihost.com:port";
+var api = "http://us1.npool.pw:2000";
 
-var poolHost = "apihost.com";
+var poolHost = "us1.npool.pw";
 
-var blockExplorer = "http://blockexplorer.pw/coin";
+var blockExplorer = "http://explorer.cadex.xyz";
 
-var cryptonatorWidget = ["BTC-USD", "XMR-USD"];
+var cryptonatorWidget = ["BTC-USD"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
-var blockchainExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchain_block";
+var blockchainExplorer = "http://explorer.cadex.xyz/?hash={id}#blockchain_block";
 
-var transactionExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchain_transaction";
+var transactionExplorer = "http://explorer.cadex.xyz/?hash={id}#blockchain_transaction";
 
 var themeCss = "themes/default-theme.css";
 
 var networkStat = [
-        ["coin.apihost.com", "http://coin.apihost.com:port"]
+        ["npool.pw/cadex", "http://us1.npool.pw:2000"],
+        ["pool.cadex.xyz", "http://pool.cadex.xyz:8117"]
 ];
