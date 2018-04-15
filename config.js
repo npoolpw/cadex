@@ -1,6 +1,6 @@
-var api = "http://sg1.npool.pw:2000";
+var api = "http://ca.npool.pw:2290";
 
-var poolHost = "sg1.npool.pw";
+var poolHost = "ca.npool.pw";
 
 var blockExplorer = "http://explorer.cadex.xyz";
 
@@ -15,7 +15,7 @@ var transactionExplorer = "http://explorer.cadex.xyz/?hash={id}#blockchain_trans
 var themeCss = "themes/default-theme.css";
 
 var networkStat = [
-        ["npool.pw/cadex", "http://sg1.npool.pw:2000"],
+        ["npool.pw/cadex", "http://ca.npool.pw:2290"],
         ["pool.cadex.xyz", "http://pool.cadex.xyz:8117"],
         ["cadex.multipool.es", "http://cadex.multipool.es:8120"],
         ["dex.hashpool.frl", "http://cdx.hashpool.frl:8134"]
